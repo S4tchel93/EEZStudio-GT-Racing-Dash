@@ -2,6 +2,7 @@
   "navigation": {
     "selectedUserPageObject": "[Test.eez-project]:/userPages/0",
     "selectedThemeObject": "[Test.eez-project]:/themes/0",
+    "selectedBitmapObject": "[Test.eez-project]:/bitmaps/2",
     "subnavigationSelectedItems": {}
   },
   "layoutModel": {
@@ -22,6 +23,7 @@
           },
           {
             "type": "border",
+            "selected": 2,
             "size": 240,
             "location": "right",
             "children": [
@@ -69,7 +71,7 @@
           },
           {
             "type": "border",
-            "selected": 0,
+            "selected": 1,
             "location": "bottom",
             "children": [
               {
@@ -164,8 +166,7 @@
                       "enableClose": false,
                       "icon": "svg:hierarchy"
                     }
-                  ],
-                  "active": true
+                  ]
                 },
                 {
                   "type": "tabset",
@@ -216,7 +217,8 @@
                   },
                   "icon": "svg:page"
                 }
-              ]
+              ],
+              "active": true
             },
             {
               "type": "tabset",
@@ -531,7 +533,8 @@
                       "component": "bitmaps",
                       "enableClose": false
                     }
-                  ]
+                  ],
+                  "active": true
                 },
                 {
                   "type": "tabset",
@@ -973,7 +976,6 @@
     "[Test.eez-project]:/userPages/0[flow-state]": {
       "selection": {
         "0": {
-          "0": {},
           "1": {},
           "2": {},
           "3": {},
@@ -984,26 +986,20 @@
           "10": {},
           "11": {},
           "13": {},
-          "17": {},
           "35": {},
           "36": {},
-          "37": {
-            "2": {},
-            "6": {},
-            "7": {},
-            "8": {},
-            "17": {}
-          },
           "39": {},
-          "48": {}
+          "48": {},
+          "53": {},
+          "54": {}
         }
       },
       "transform": {
         "translate": {
-          "x": -71.99011255411256,
-          "y": -82.23962698412686
+          "x": -277.8980444444447,
+          "y": -77.31333333333333
         },
-        "scale": 0.67
+        "scale": 0.8
       },
       "timeline": {
         "isEditorActive": false,
@@ -1036,10 +1032,12 @@
     "OUTLINE",
     "BORDER",
     "BACKGROUND",
-    "LINE"
+    "LINE",
+    "IMAGE",
+    "SHADOW"
   ],
   "showInactiveFlowsInDebugger": true,
   "globalFlowZoom": true,
-  "flowZoom": 0.67,
+  "flowZoom": 0.8,
   "implementationLanguage": "C"
 }

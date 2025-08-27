@@ -4561,6 +4561,153 @@
               "textType": "literal",
               "longMode": "WRAP",
               "recolor": false
+            },
+            {
+              "objID": "301ddd68-38eb-4d5a-8c10-7c4ae44e0fb9",
+              "type": "LVGLPanelWidget",
+              "left": 229,
+              "top": 67,
+              "width": 66,
+              "height": 41,
+              "customInputs": [],
+              "customOutputs": [],
+              "style": {
+                "objID": "80275f3c-c21f-4588-d144-267ce42c4ba9",
+                "useStyle": "default",
+                "conditionalStyles": [],
+                "childStyles": []
+              },
+              "timeline": [],
+              "eventHandlers": [],
+              "identifier": "Ignition Status",
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px",
+              "children": [],
+              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+              "hiddenFlagType": "literal",
+              "clickableFlag": true,
+              "clickableFlagType": "literal",
+              "flagScrollbarMode": "",
+              "flagScrollDirection": "",
+              "scrollSnapX": "",
+              "scrollSnapY": "",
+              "checkedStateType": "literal",
+              "disabledStateType": "literal",
+              "states": "",
+              "localStyles": {
+                "objID": "5ba74a6d-822c-48d8-c0e0-b6664fb712a3",
+                "definition": {
+                  "MAIN": {
+                    "DEFAULT": {
+                      "border_opa": 0,
+                      "bg_color": "#2a2a2a",
+                      "bg_img_src": "engine 64"
+                    }
+                  }
+                }
+              },
+              "group": "",
+              "groupIndex": 0
+            },
+            {
+              "objID": "74e76b13-db08-4605-b0ee-4f3854dd9b09",
+              "type": "LVGLPanelWidget",
+              "left": 154,
+              "top": 67,
+              "width": 66,
+              "height": 41,
+              "customInputs": [],
+              "customOutputs": [],
+              "style": {
+                "objID": "8bf1196d-befc-4125-cd39-f903a23e4419",
+                "useStyle": "default",
+                "conditionalStyles": [],
+                "childStyles": []
+              },
+              "timeline": [],
+              "eventHandlers": [],
+              "identifier": "Wipers Status",
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px",
+              "children": [],
+              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+              "hiddenFlagType": "literal",
+              "clickableFlag": true,
+              "clickableFlagType": "literal",
+              "flagScrollbarMode": "",
+              "flagScrollDirection": "",
+              "scrollSnapX": "",
+              "scrollSnapY": "",
+              "checkedStateType": "literal",
+              "disabledStateType": "literal",
+              "states": "",
+              "localStyles": {
+                "objID": "ba648c3a-374b-491b-efc9-8cf889376354",
+                "definition": {
+                  "MAIN": {
+                    "DEFAULT": {
+                      "border_opa": 0,
+                      "bg_color": "#2a2a2a",
+                      "bg_img_src": "Wiper 64"
+                    }
+                  }
+                }
+              },
+              "group": "",
+              "groupIndex": 0
+            },
+            {
+              "objID": "5bba1d96-3e2f-44e3-f4c4-d609ed7dce04",
+              "type": "LVGLPanelWidget",
+              "left": 78,
+              "top": 67,
+              "width": 66,
+              "height": 41,
+              "customInputs": [],
+              "customOutputs": [],
+              "style": {
+                "objID": "5a0f3295-f657-46dc-d052-5f334c206a69",
+                "useStyle": "default",
+                "conditionalStyles": [],
+                "childStyles": []
+              },
+              "timeline": [],
+              "eventHandlers": [],
+              "identifier": "Lights Status",
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px",
+              "children": [],
+              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+              "hiddenFlagType": "literal",
+              "clickableFlag": true,
+              "clickableFlagType": "literal",
+              "flagScrollbarMode": "",
+              "flagScrollDirection": "",
+              "scrollSnapX": "",
+              "scrollSnapY": "",
+              "checkedStateType": "literal",
+              "disabledStateType": "literal",
+              "states": "",
+              "localStyles": {
+                "objID": "e9405d64-eaa2-4d3f-ec77-3c90cfe353b5",
+                "definition": {
+                  "MAIN": {
+                    "DEFAULT": {
+                      "border_opa": 0,
+                      "bg_color": "#2a2a2a",
+                      "bg_img_src": "light 64"
+                    }
+                  }
+                }
+              },
+              "group": "",
+              "groupIndex": 0
             }
           ],
           "widgetFlags": "CLICKABLE|PRESS_LOCK|CLICK_FOCUSABLE|GESTURE_BUBBLE|SNAPPABLE|SCROLLABLE|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER",
@@ -4636,7 +4783,35 @@
       }
     }
   ],
-  "bitmaps": [],
+  "bitmaps": [
+    {
+      "objID": "937606a7-0ac5-4bae-d60c-9a109e3d2e8f",
+      "name": "engine 64",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAB2AAAAdgB+lymcgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJ/SURBVHic7ZmxbhQxEIa/Q4giES8QckJCQog8R4oEKHiDdIkUeCQk+uhECUERLdAEmtAFBLlQnpRcTrSXYlnpYtm3Y3u8e0nmk6by2jPze+z1esEwDMMwDMMwDCON58ApMFW2IbDZYh7JDNFPvraT0sHfKe3gNrBJmSo4ATZKB98r7WCGaYe+g9z6JWACdB1A16QK0AcGwBj5puYi7TcG3gFPArGEziET4CvwGriXmKeXPjCKSEDLRsCqJx7JG+g78ECaYK1o6CQ26CD52vY88Uj7fkNYCbOK+k5iMWWvbecZAkyBVxIB3E6x7dqkxrMKvHfavpR0WIqcePpO29jt7DuNuYO4zzS1a5Mbz9x2Owe06OsF8Bv4S953fvElWGIPeMjVt8efjHiaLCreNiqgB7wB7if2P414dpjo4wraFbDj6bMTEY/0viF0fxBdsbklN4tb+lPgE+3fQ3QiQA/Yd56dAI8SksihMwG2hf2PgfW4nKLoTICfEWMcx+UUxdx47woGaDpZ3Ti03gLrVDMrqYBtpdh9ZC+B7AFnSHkrSP88he4vFkaAHvDR6St5K8T8c/DdXyyMAKkHotxNeWEEcGfyANmB6EYKMKbaD9qIR12AM6f9LbAsGPcZ8Ou/xXwOty5A06Wo71b4B7AmGTyBnAQbr8R81F9foa+rx/j/C0yALYmDSFIF6AMfnLbPWkE9BY48zuslsaTlyDN+U/s821WMiyWqZH2OjtBbEloCHKL8i6xmi6r8Y2Yi1c48/iUHpUNgRTNplzWqjbC0AAOP79CN0QXVmt+l0My7LBNeEho2otqAF56XVMr/Qyfxc6qZvxbJG4ZhGIZhGIZxPbgE65YzKSdQKcMAAAAASUVORK5CYII=",
+      "bpp": 32,
+      "alwaysBuild": false,
+      "lvglBinaryOutputFormat": 3,
+      "lvglDither": false
+    },
+    {
+      "objID": "b44790ad-f174-41e6-fd78-ab4a8c514cce",
+      "name": "Wiper 64",
+      "image": "data:image/png;base64,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",
+      "bpp": 32,
+      "alwaysBuild": false,
+      "lvglBinaryOutputFormat": 3,
+      "lvglDither": false
+    },
+    {
+      "objID": "b7f36ec4-8dbe-4d9d-c3a9-3bc9673ec2ba",
+      "name": "light 64",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAHYAAAB2AH6XKZyAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA8NJREFUeJzt2k2IHEUUwPGf0TXZiGaFGPzAuOiqS8QIupgIRgT14FcurhcvgqgIXlyFVREvgkdFMVHUnDzoIR48RRRBokE8moC4ZoNBQYwfBzW6G3fXrIeqoSfN9kzPTPfsqPWHpmeqq16/rnr13uuqJpFIJBKJRCKRSCQS/z9Oq1H2OoxjFJtwBpawgJ/xLWbxV4069J3NmManOIHlNscfeBFrV0NZqrOAbXgKO7Emlv2Nr3EYP2EewxjC+bgUV8a6e/BQRbr0lfPwNk4KI3oi/t+Jc3J1J/CYrIPgemFKLGBD3cpWza04Jnvw3bi4Rf2PYt1tufKPY/k9NehYGw9gUVD8M1xSos3+WH9Hrnw6lu+pUsE6mRTm9zJexpkl2xV1wHWx/KuqFKyTGwVntownOmxb1AFDmBP8yEivCtbJBvwgPMRLXbRv7oARIQ/Ih8UHm+o/KbO0bo9vcFYrpda0upjjOSF87cfjHbQrYqUQfHnT70Zk6YWlCmSArYLTW8BVXcoomgLwaLz2epeyu6asBTwtpLK78GUNeszG81gNsntmoxDnF3FRD3JaWcCYbM72lTIWcKeQq3+I72vSoyH3gprkF1KmA26J5/crvO8IvpN567lYvk5wtAxQFNgaz5+XqNsJRd65kQsMTBQ4HoXkX246pZUPgEPx+tU93qcj2lnA6YIJLeF3rBeiQR00psH6muSvSLsOaE5WhnEUn5Ro1w2VJCyd0u5BlvCnMOrD8fcNeKYGXRrOaq5lrVXgC2F0JnCHzLHsFVZ1ypJ/F2iOAs3HeKw/MFHgUDxvxz7cJ1jCpPAK+wZuKimrmSKT/y2eByYK3B+F7GsqGxUsoHmEjuFdTOF2bHGqQ2sVBYZlK0t1rlR3xUZh6XoRF+aujeN5HFFshgeFTLJVB1wWrx2tXv3WlDHbX/Ce4AjziyAzgkMcwxWCtbyGD4TpMS/kD+1GteFL+t4BZblGtqmxpUsZ/+rX4YN4VVi+2t1BuyLyUWBXLP+1qc60zIl1exxR4YrQs/gRN+OFDtoVsZJ3nm1zvar7dM0O2aLoVIdtyyyKnturgv3gXiH8nRT29YZKtivqgGtj+UxVCnZCN3N5Lx4ROmFK2NnZ3IMOjfWGAz3IWBVuE3xCI4F5Resls3ZbY5M16Fg7m/COLG2dx1u4G2fn6k4IFjNQm6NVpZ3bhZXju5y6PT4jePZ22+Nv4uGKdFlVRoXvBA4I6XO7OH3cf+QDiZUYFkZ4VPiOYK3M3BufyByO/xOJRCKRSCQSiUQikegj/wAGXUgQohDtKQAAAABJRU5ErkJggg==",
+      "bpp": 32,
+      "alwaysBuild": false,
+      "lvglBinaryOutputFormat": 3,
+      "lvglDither": false
+    }
+  ],
   "colors": [],
   "themes": [
     {
