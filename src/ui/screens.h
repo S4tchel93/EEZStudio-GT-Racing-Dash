@@ -29,7 +29,6 @@ typedef struct _objects_t {
     lv_obj_t *fuel_units;
     lv_obj_t *speed_panel;
     lv_obj_t *speed_value;
-    lv_obj_t *indicator_bar;
     lv_obj_t *rpm_led_5;
     lv_obj_t *rpm_led_6;
     lv_obj_t *rpm_led_4;
@@ -96,6 +95,8 @@ typedef struct _objects_t {
     lv_obj_t *ignition_status;
     lv_obj_t *wipers_status;
     lv_obj_t *lights_status;
+    lv_obj_t *throttle_indicator;
+    lv_obj_t *brake_indicator;
 } objects_t;
 
 extern objects_t objects;

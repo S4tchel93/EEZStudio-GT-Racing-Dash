@@ -986,18 +986,19 @@
           "10": {},
           "11": {},
           "13": {},
+          "34": {},
           "35": {},
           "36": {},
-          "39": {},
-          "48": {},
-          "53": {},
-          "54": {}
+          "38": {},
+          "47": {},
+          "52": {},
+          "53": {}
         }
       },
       "transform": {
         "translate": {
-          "x": -277.8980444444447,
-          "y": -77.31333333333333
+          "x": -354.8902522366524,
+          "y": -61.04406926406932
         },
         "scale": 0.8
       },
@@ -1024,7 +1025,7 @@
   "showComponentDescriptions": true,
   "logsPanelFilter": "all",
   "selectedStylePropertyName": "",
-  "lvglPart": "MAIN",
+  "lvglPart": "INDICATOR",
   "lvglState": "DEFAULT",
   "lvglExpandedPropertiesGroup": [
     "TEXT",
